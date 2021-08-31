@@ -1,0 +1,17 @@
+[package]
+name = "dimensional"
+version = "0.1.0"
+description = "Functions, structs, and reference data for working with dimensional values, such as '1 second' and '3 miles per hour'."
+license = "MIT"
+rpository = "https://github.com/lixquid/rs-dimensional"
+keywords = ["dimensional", "math"]
+categories = ["algorithms", "data-structures", "mathematics"]
+authors = ["Lixquid <lixquid@lixquid.com>"]
+edition = "2018"
+
+[features]
+default = ["si"]
+si = []
+
+[dependencies]
+num-traits = "0.2"
